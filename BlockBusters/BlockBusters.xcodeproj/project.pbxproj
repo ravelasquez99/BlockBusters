@@ -13,6 +13,8 @@
 		812271201DFB6CF300243C26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8122711F1DFB6CF300243C26 /* Assets.xcassets */; };
 		812271231DFB6CF300243C26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 812271211DFB6CF300243C26 /* LaunchScreen.storyboard */; };
 		8122712E1DFB704500243C26 /* Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8122712D1DFB704500243C26 /* Services.swift */; };
+		812271301DFB726500243C26 /* Meetup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8122712F1DFB726500243C26 /* Meetup.swift */; };
+		812271321DFB72BE00243C26 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 812271311DFB72BE00243C26 /* Event.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		812271221DFB6CF300243C26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		812271241DFB6CF300243C26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8122712D1DFB704500243C26 /* Services.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Services.swift; sourceTree = "<group>"; };
+		8122712F1DFB726500243C26 /* Meetup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Meetup.swift; sourceTree = "<group>"; };
+		812271311DFB72BE00243C26 /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +76,8 @@
 			isa = PBXGroup;
 			children = (
 				8122712D1DFB704500243C26 /* Services.swift */,
+				8122712F1DFB726500243C26 /* Meetup.swift */,
+				812271311DFB72BE00243C26 /* Event.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -167,6 +173,8 @@
 				8122711B1DFB6CF300243C26 /* ViewController.swift in Sources */,
 				8122712E1DFB704500243C26 /* Services.swift in Sources */,
 				812271191DFB6CF300243C26 /* AppDelegate.swift in Sources */,
+				812271301DFB726500243C26 /* Meetup.swift in Sources */,
+				812271321DFB72BE00243C26 /* Event.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,5 +1,5 @@
 //
-//  Services.swift
+//  Meetup.swift
 //  BlockBusters
 //
 //  Created by Ricky Velasquez on 12/9/16.
@@ -9,10 +9,6 @@
 import Foundation
 
 
-
-class Services {
-    func getMeetupsForString(string: String, completion: (_ result: String) -> Void) {
-        
-    }
+class Meetup: Event {
     
 }
