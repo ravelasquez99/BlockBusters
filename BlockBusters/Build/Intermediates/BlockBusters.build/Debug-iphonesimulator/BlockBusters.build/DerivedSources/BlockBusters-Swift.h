@@ -141,7 +141,6 @@ SWIFT_CLASS("_TtC12BlockBusters11AppDelegate")
 SWIFT_CLASS("_TtC12BlockBusters14ViewController")
 @interface ViewController : UIViewController
 - (void)viewDidLoad;
-- (void)didReceiveMemoryWarning;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
